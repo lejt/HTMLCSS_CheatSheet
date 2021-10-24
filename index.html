@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='styles.css' rel='stylesheet'>
+    <title>HTMLCSS CheatSheet</title>
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Cheat Sheet</h1>
+      <nav>
+      </nav>
+    </header>
+  
+  <!--   HTML SECTION   -->
+  
+    <div class="htmlsection"> 
+    <h2>HTML:</h2>
+    <table class="loadout">
+        <h3>Document Loadout</h3>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag">&lt;!DOCTYPE html&gt;</td>
+                <td class="name">Document Type</td>
+                <td class="description">Indicating the current .html file is using HTML</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;html&gt;</td>
+                <td class="name">HTML</td>
+                <td class="description">Everything enclosed is HTML</td>
+            </tr>
+            <tr>                
+                <td class="tag">&lt;head&gt;</td>
+                <td class="name">Head</td>
+                <td class="description">Head contains links to .css file, other stylesheets like font and title</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;link&gt;</td>
+                <td class="name">Link</td>
+                <td class="description">&lt;link href="file location of css" rel="stylesheet"&gt;</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;title&gt;</td>
+                <td class="name">Title</td>
+                <td class="description">Changes title of page on tab</td>
+            </tr>
+            <tr>
+                <td class="tag"> &lt;body&gt;</td>
+                <td class="name">Body</td>
+                <td class="description">Should contain block of all other HTML code</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;!--&gt;</td>
+                <td class="name">Comment</td>
+                <td class="description">HTML one line comment &lt;!-- COMMENT --&gt;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="bodytags">
+        <h3>General Body Tags</h3>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;h1,h2,h3,h4,h5,h6&gt;</td>
+                <td>Headings</td>
+                <td>Headings of each size</td>
+            </tr>
+            <tr>
+                <td>&lt;ul&gt;</td>
+                <td>Unordered List</td>
+                <td>Lists such as bullet points</td>
+            </tr>
+            <tr>                
+                <td>&lt;ol&gt;</td>
+                <td>Ordered List</td>
+                <td>Lists such as numbered points</td>
+            </tr>
+            <tr>
+                <td>&lt;li&gt;</td>
+                <td>List</td>
+                <td>Bullet or numbered point in between ul/ol tag</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>Paragraph</td>
+                <td>Contains paragraphs</td>
+            </tr>
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>Hyperlinks</td>
+                <td>&lt;a href="URL" (optional- target="_blank" for open in new tab)&gt;Word/ImageUsedAsHyperLink&lt;/a&gt;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="mediatags">
+        <h3>Media tags</h3>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>Image</td>
+                <td>&lt;img src="URL" /&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;video&gt;</td>
+                <td>Video</td>
+                <td>&lt;video src="URL" (optional- width="" height="") controls&gt;Video not supported&lt;/video&gt;</td>
+            </tr>
+            <tr>                
+                <td>&lt;audio&gt;</td>
+                <td>Audio</td>
+                <td>&lt;audio&gt;&lt;source src="URL" (optional- type="audio/mp3" autoplay)&lt;/audio&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;em&gt;</td>
+                <td>Embedded</td>
+                <td>Legacy code for all media types: video, audio, img</td>
+            </tr>
+            <tr>
+                <td>&lt;figure&gt;</td>
+                <td>Figure</td>
+                <td>For media with a caption &lt;figure&gt;&lt;img (or any media) src="URL"&gt;&lt;figcaption&gt;WordsForLabel&lt;/figcaption&gt;&lt;/figure&gt;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="sectiontags">
+        <h3>Container Tags for Organization</h3>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>                
+                <td>&lt;header&gt;</td>
+                <td>Header</td>
+                <td>For introductory content or nav links</td>
+            </tr>
+            <tr>
+                <td>&lt;nav&gt;</td>
+                <td>Navigation</td>
+                <td>Container used to section general nav links in header</td>
+            </tr>
+            <tr>
+                <td>&lt;div&gt;</td>
+                <td>Division</td>
+                <td>General block container for sectioning</td>
+            </tr>
+            <tr>
+                <td>&lt;span&gt;</td>
+                <td>Span</td>
+                <td>Inline container used to markup part of a text</td>
+            </tr>
+            <tr>
+                <td>&lt;article&gt;</td>
+                <td>Article</td>
+                <td>Usually a container for different paragraphs</td>
+            </tr>
+            <tr>
+                <td>&lt;footer&gt;</td>
+                <td>Footer</td>
+                <td>Container for bottom section of HTML webpage</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="identitytags">
+        <h3>Specificity Attributes</h3>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>                
+                <td>class</td>
+                <td>Class</td>
+                <td>Used to specify a class for element(tag) &lt;tag class=""&gt;</td>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>Identity</td>
+                <td>Cannot have more than one element(tag) with same ID &lt;tag id=""&gt;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="tabletags">
+        <h3>Table tags</h3>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>                
+                <td>&lt;table&gt;</td>
+                <td>Table</td>
+                <td>Wrapper element for all HTML tables</td>
+            </tr>
+            <tr>
+                <td>&lt;thead&gt;</td>
+                <td>Table Head</td>
+                <td>Set of rows for column headers</td>
+            </tr>
+            <tr>
+                <td>&lt;tbody&gt;</td>
+                <td>Table Body</td>
+                <td>Like the body wrapper but for the table main code</td>
+            </tr>
+            <tr>
+                <td>&lt;tr&gt;</td>
+                <td>Table Row</td>
+                <td>Table row</td>
+            </tr>
+            <tr>
+                <td>&lt;th&gt;</td>
+                <td>Table Head</td>
+                <td>Headings for table</td>
+            </tr>
+            <tr>
+                <td>&lt;td&gt;</td>
+                <td>Table Data</td>
+                <td>Used to input data into each table block</td>
+            </tr>
+            <tr>
+                <td>&lt;tfoot&gt;</td>
+                <td>Table Foot</td>
+                <td>Set of rows for footer in table</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="tableattributes">
+        <h3>Table Attributes</h3>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>                
+                <td>colspan</td>
+                <td>Column Span</td>
+                <td>Defines how many rows a column should span &lt;td colspan=""&gt;DataInput&lt;/td&gt;</td>
+            </tr>
+            <tr>
+                <td>rowspan</td>
+                <td>Row Span</td>
+                <td>Defines how many columns a row should span &lt;td rowspan=""&gt;DataInput&lt;/td&gt;</td>
+            </tr>
+            <tr>
+                <td>scope</td>
+                <td>Scope</td>
+                <td>For Table Head, defines if heading in row or column  &lt;th scope=""&gt;DataInput&lt;/th&gt;</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+  
+  <!--   CSS SECTION   -->
+  
+  <div class="cssSection">
+  <table class="cssloadout">
+       <h3>CSS Loadout</h3>
+       <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> 
+                <td>@import</td>
+                <td>Import</td>
+                <td>At the top, importing fonts, ex. @import url()</td>
+            </tr>
+        </tbody>
+  </table>
+  </div>
+  
+
+  <footer>
+    <h3>Contact</h3>
+    <h3>Location</h3>
+    <h3>Privacy Policy</h3>
+  </footer>
+
+</body>
+</html>

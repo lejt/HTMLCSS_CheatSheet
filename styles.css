@@ -1,0 +1,66 @@
+@import url(https://fonts.google.com/specimen/Libre+Franklin);
+
+:root {
+    --backgroundtable: rgba(85,214,170,0.5)
+}
+*{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.htmlsection {
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    padding: 0 0 30px 0;
+}
+  
+table {
+    border: 2px solid black;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--backgroundtable)
+}
+
+td {
+    padding: 0 20px 0 0;
+}
+h2 {
+    color: var(--backgroundtable);
+    postion: absolute;
+    text-align: left;
+    padding: 20px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tag {
+    width: 150px;
+}
+.name {
+    width: 150px;
+}
+.description {
+    width: 700px;
+}
+.cssSection {
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    padding: 0 0 30px 0;
+    margin: 20px auto;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
+    background-color: #242f44;
+    z-index: 5;
+}
+footer h3 {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #242f44;
+}
